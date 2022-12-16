@@ -1,0 +1,131 @@
+p {
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+  background-image: linear-gradient(to left, red, green); }
+
+h1 {
+  text-align: center; }
+
+h2 {
+  font-size: 35px;
+  text-align: center; }
+
+@media only screen and (max-width: 768px) {
+  body p {
+    font-size: 15px;
+    font-family: fantasy; } }
+
+/** imagen logo **/
+.logoImg {
+  width: 70px;
+  height: 70px; }
+
+/** imagen index**/
+.imgPrin {
+  width: 100%;
+  height: auto; }
+
+/** carrusel servicios**/
+.carousel-inner {
+  height: 100% !important;
+  width: 100%; }
+
+/**    imagen foro**/
+.imgForo {
+  width: 100%;
+  height: auto; }
+
+/** imagen footer**/
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px; }
+
+.rrssImg {
+  width: 50px;
+  height: 50px; }
+
+.center {
+  display: flex;
+  justify-content: center; }
+
+@keyframes desaparecer {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+.animation {
+  animation-name: desaparecer;
+  animation-iteration-count: infinite;
+  animation-duration: 2s; }
+
+.carousel-inner {
+  height: auto;
+  width: 100%; }
+
+.flexForm {
+  display: flex;
+  flex-direction: column; }
+
+.indexG {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header header" "main main" "footer footer"; }
+
+header {
+  grid-area: header;
+  text-align: right; }
+
+main {
+  grid-area: main; }
+
+footer {
+  grid-area: footer; }
+
+@media only screen and (max-width: 768px) {
+  .indexG {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "header header" " main main" "footer footer"; }
+  header {
+    grid-area: header; }
+  main {
+    grid-area: main; }
+  footer {
+    grid-area: footer; } }
+
+@media only screen and (max-width: 768px) {
+  .servicioG {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "header header" "section section" "footer footer"; }
+  header {
+    grid-area: header; }
+  section {
+    grid-area: section; }
+  footer {
+    grid-area: footer; } }
+
+* {
+  background-color: #ff0000; }
+
+.bcR {
+  background-color: #ff0000; }
+
+header {
+  grid-area: header;
+  text-align: right; }
+
+nav ul li {
+  list-style-type: none; }
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px; }

@@ -1,0 +1,17 @@
+@keyframes desaparecer{
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+}
+.animation{
+    animation-name: desaparecer;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+.carousel-inner {
+	height: auto;
+	width: 100%;
+}
+.flexForm {
+    display: flex;
+    flex-direction: column;
+}

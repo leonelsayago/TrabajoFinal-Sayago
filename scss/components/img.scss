@@ -1,0 +1,32 @@
+
+/** imagen logo **/
+.logoImg {
+    width: 70px;
+    height: 70px;
+}
+/** imagen index**/
+.imgPrin{	
+    width: 100%;
+    height: auto;
+}
+/** carrusel servicios**/
+.carousel-inner {
+    height: 100% !important;
+    width: 100%;
+}
+/**    imagen foro**/ 
+.imgForo{
+    width: 100%;
+    height: auto;
+}
+/** imagen footer**/
+.flex {
+    display: flex;   
+flex-direction: row;
+justify-content: space-between;
+padding: 10px;
+}
+.rrssImg{
+width: 50px;
+height: 50px;
+}      
